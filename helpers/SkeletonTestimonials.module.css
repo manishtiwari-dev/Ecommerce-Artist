@@ -1,0 +1,29 @@
+/* SkeletonTestimonials.module.css */
+
+.item {
+    margin-right: 20px;
+    background-color: #f0f0f0; /* Light gray */
+    padding: 20px;
+  }
+  
+  .arrow {
+    width: 20px;
+    height: 20px;
+    background-color: #e0e0e0; /* Light gray */
+  }
+  
+  .comment {
+    height: 80px; /* Adjust height as needed */
+    background-color: #e0e0e0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    width: 100px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    background-color: #e0e0e0; /* Light gray */
+  }
+  .image {
+    height: 200px;
+    background-color: #f0f0f0; /* Light gray */
+  }

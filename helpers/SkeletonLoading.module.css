@@ -1,0 +1,40 @@
+/* SkeletonCollection.module.css */
+
+.collections {
+    padding: 20px;
+  }
+  
+  .collections h3 {
+    margin-bottom: 20px;
+  }
+  
+  .collections-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .items {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image {
+    height: 200px;
+    background-color: #f0f0f0; /* Light gray */
+  }
+  
+  .content {
+    padding: 10px;
+  }
+  
+  .loading-text {
+    height: 15px;
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+
+  
+  

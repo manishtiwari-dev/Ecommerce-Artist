@@ -1,0 +1,42 @@
+/* SkeletonChoiceGallery.module.css */
+
+.tab {
+    display: block;
+  --bs-nav-tabs-border-width: 0;
+  flex: 0 0 auto;
+  width: 18%;
+  }
+  
+  .tabPane {
+    padding: 0;
+    margin-right: 0;
+  }
+  
+  .inner-taber {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image {
+    height: 200px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    flex: 0 0 auto;
+  width: 82%;
+  padding: 0;
+  }
+  
+  .title {
+    height: 20px
+  }

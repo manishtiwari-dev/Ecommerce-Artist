@@ -1,0 +1,33 @@
+/* SkeletonStyle.module.css */
+
+.box {
+    height: 200px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image {
+    height: 200px; /* Adjust height as needed */
+    background-color: #e0e0e0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    height: 20px; /* Adjust height as needed */
+    width: 80%;
+    background-color: #e0e0e0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    height: 30px; /* Adjust height as needed */
+    width: 100px; /* Adjust width as needed */
+    background-color: #e0e0e0; /* Light gray */
+  }
+  
+  .circle-boxes img {
+    width: 100%;
+    border-radius: 50%;
+  }

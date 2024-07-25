@@ -1,0 +1,57 @@
+/* SkeletonLatestCollections.module.css */
+
+.skeletonItem {
+    border: 1px solid #ddd; /* Gray border */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    height: 200px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    /* Add styles for content container if needed */
+  }
+  
+  .title {
+    height: 20px; /* Adjust height as needed */
+    width: 80%;
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    height: 15px; /* Adjust height as needed */
+    width: 60%;
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .size {
+    height: 15px; /* Adjust height as needed */
+    width: 50%;
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    height: 15px; /* Adjust height as needed */
+    width: 40%;
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button {
+    height: 30px; /* Adjust height as needed */
+    width: 45%; /* Adjust width as needed */
+    background-color: #f0f0f0; /* Light gray */
+  }
+  

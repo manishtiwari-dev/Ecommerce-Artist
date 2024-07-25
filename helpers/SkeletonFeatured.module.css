@@ -1,0 +1,34 @@
+/* SkeletonFeatured.module.css */
+
+.featured {
+    padding: 20px;
+  }
+  
+  .featured h3 {
+    margin-bottom: 20px;
+  }
+  
+  .featured-items {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Skeleton styles for image */
+  .image {
+    height: 200px;
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  /* Skeleton styles for title */
+  .title {
+    height: 20px;
+    width: 80%;
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styles as needed */
+  

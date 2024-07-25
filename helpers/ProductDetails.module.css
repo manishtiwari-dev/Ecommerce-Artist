@@ -1,0 +1,157 @@
+.productWrapper {
+    padding: 20px;
+  }
+  
+  .breadcrumb ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .title {
+    height: 20px;
+    width: 80%;
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }
+  .breadcrumb ul li {
+    margin-right: 10px;
+  }
+  
+  .breadcrumb ul li a {
+    text-decoration: none;
+  }
+  
+  .productInfo .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .itemImageParent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .thumbBox {
+    margin-bottom: 10px;
+  }
+  
+  .thumbBox img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sliderProductImg .item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .itemInfoParent {
+    padding: 20px;
+  }
+  
+  .mainInfo {
+    margin-bottom: 20px;
+  }
+  
+  .productName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .productIcon ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .productIcon ul li {
+    margin-left: 10px;
+  }
+  
+  .aboutArt {
+    margin-top: 20px;
+  }
+  
+  .tabberWrapper {
+    margin-top: 20px;
+  }
+  
+  .tabberList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tabberList li {
+    margin-right: 20px;
+  }
+  
+  .tabberContent {
+    margin-top: 20px;
+  }
+  
+  .btnGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btnGroup .btn {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .itemImageParent {
+      flex-direction: column;
+    }
+  
+    .thumbBox img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .sliderProductImg .item img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .breadcrumb ul {
+      flex-direction: column;
+    }
+  
+    .productName {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .tabberList {
+      flex-direction: column;
+    }
+  
+    .btnGroup {
+      flex-direction: column;
+    }
+  
+    .btnGroup .btn {
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  .skeletonItem {
+    border: 1px solid #ddd; /* Gray border */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    height: 200px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Light gray */
+    margin-bottom: 10px;
+  }  

@@ -1,0 +1,51 @@
+/* SkeletonBannerSlider.module.css */
+
+.banner-slider {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .carouselControl {
+    /* Skeleton styles for carousel controls */
+    width: 15px;
+    height: 15px;
+    background-color: #f0f0f0; /* Light gray */
+    margin: 0 5px;
+  }
+  
+  
+  .items {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .skeletonText {
+    -webkit-text-stroke-color: #000;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    transform: rotate(-90deg);
+    margin-bottom: 80px;
+    position: relative;
+    left: 55px;
+    background-color:#f0f0f0;
+    color: #f0f0f0;
+  }
+  
+  .skeletonImage {
+    height: 500px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Light gray */
+    
+  }
+  
